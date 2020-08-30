@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plans",
+  "info": {
+    "name": "Plan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "entrainements": {
+      "collection": "entrainement"
+    },
+    "Nom": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    }
+  }
+}

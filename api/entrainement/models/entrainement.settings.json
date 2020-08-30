@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "entrainements",
+  "info": {
+    "name": "entrainement"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Nom": {
+      "type": "string"
+    },
+    "Parcours": {
+      "type": "string"
+    },
+    "Exercice": {
+      "type": "component",
+      "repeatable": true,
+      "component": "wourkout.workout"
+    }
+  }
+}

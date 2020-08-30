@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_wourkout_workouts",
+  "info": {
+    "name": "workout",
+    "icon": "running"
+  },
+  "options": {},
+  "attributes": {
+    "groupe": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}

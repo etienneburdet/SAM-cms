@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_training_plan_training_plans",
+  "info": {
+    "name": "training-plan",
+    "icon": "equals"
+  },
+  "options": {},
+  "attributes": {
+    "plans": {
+      "collection": "plan"
+    },
+    "entrainement": {
+      "collection": "entrainement"
+    }
+  }
+}

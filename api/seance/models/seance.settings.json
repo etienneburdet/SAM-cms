@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "session",
+  "info": {
+    "name": "Séance"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "coach": {
+      "type": "string"
+    },
+    "training": {
+      "type": "component",
+      "repeatable": true,
+      "component": "training-plan.training-plan"
+    },
+    "meeting": {
+      "type": "string"
+    }
+  }
+}
