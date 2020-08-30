@@ -9,10 +9,6 @@
     "timestamps": true
   },
   "attributes": {
-    "date": {
-      "type": "date",
-      "required": true
-    },
     "coach": {
       "type": "string"
     },
@@ -23,6 +19,10 @@
     },
     "meeting": {
       "type": "string"
+    },
+    "day": {
+      "type": "date",
+      "required": true
     }
   }
 }
