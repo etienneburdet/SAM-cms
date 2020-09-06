@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "entrainements",
+  "collectionName": "workout",
   "info": {
-    "name": "entrainement"
+    "name": "workout"
   },
   "options": {
     "increments": true,
@@ -15,10 +15,10 @@
     "Parcours": {
       "type": "string"
     },
-    "Exercice": {
+    "groupes": {
       "type": "component",
       "repeatable": true,
-      "component": "wourkout.workout"
+      "component": "groupe.workout"
     }
   }
 }

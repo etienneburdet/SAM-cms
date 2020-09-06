@@ -1,7 +1,7 @@
 {
   "collectionName": "components_training_plan_training_plans",
   "info": {
-    "name": "training-plan",
+    "name": "training-plan-coach",
     "icon": "equals"
   },
   "options": {},
@@ -9,8 +9,11 @@
     "plans": {
       "collection": "plan"
     },
-    "entrainement": {
-      "collection": "entrainement"
+    "workout": {
+      "model": "entrainement"
+    },
+    "coach": {
+      "type": "string"
     }
   }
 }

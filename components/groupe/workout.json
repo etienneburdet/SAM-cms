@@ -1,15 +1,15 @@
 {
   "collectionName": "components_wourkout_workouts",
   "info": {
-    "name": "workout",
+    "name": "groupe",
     "icon": "running"
   },
   "options": {},
   "attributes": {
-    "groupe": {
+    "nom": {
       "type": "string"
     },
-    "Description": {
+    "instruction": {
       "type": "string"
     }
   }

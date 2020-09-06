@@ -9,13 +9,10 @@
     "timestamps": true
   },
   "attributes": {
-    "coach": {
-      "type": "string"
-    },
-    "training": {
+    "trainings": {
       "type": "component",
       "repeatable": true,
-      "component": "training-plan.training-plan"
+      "component": "training-plan-coach.training-plan"
     },
     "meeting": {
       "type": "string"
